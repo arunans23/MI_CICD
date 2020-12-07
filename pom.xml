@@ -15,16 +15,16 @@
     <project.scm.id>my-scm-server</project.scm.id>
   </properties>
   <scm>
-    <connection>scm:git:https://github.com/sajithaliyanage/MI_CICD.git</connection>
-    <developerConnection>scm:git:https://github.com/sajithaliyanage/MI_CICD.git</developerConnection>
-    <url>https://github.com/sajithaliyanage/MI_CICD.git</url>
+    <connection>scm:git:https://github.com/arunans23/MI_CICD.git</connection>
+    <developerConnection>scm:git:https://github.com/arunans23/MI_CICD.git</developerConnection>
+    <url>https://github.com/arunans23/MI_CICD.git</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
       <id>releases</id>
       <name>WSO2 Release Distribution Repository</name>
-      <url>http://192.168.1.2:8081/nexus/content/repositories/development/</url>
+      <url>http://192.168.112.16/:8081/nexus/content/repositories/development/</url>
     </repository>
   </distributionManagement>
   <build>
